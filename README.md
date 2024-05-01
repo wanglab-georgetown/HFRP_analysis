@@ -2,7 +2,7 @@
 
 `hfrp` is a Python library designed for automatically analyzing high-frequency train stimulation for releasable pool analysis. It reads electrophysiology data from Axon Binary Format (ABF) files. The library was created with the goal of providing an automatic and robust analysis with minimal human intervention. It can be easily configured to run as a job, processing ABF files automatically.
 
-The code will fit an exponential function $$ae^{-bt}$$ to each peak's decaying phase, utilizing the portion from 50% to 95% of the peak value, and subtract the contribution of this exponential function from all subsequent stimulations.
+The code will fit an exponential function $ae^{-bt}$ to each peak's decaying phase, utilizing the portion from 5% to 50% of the peak value, and subtract the contribution of this exponential function from all subsequent stimulations.
 
 ## Installation
 
